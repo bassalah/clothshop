@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "284484192495",
+    "project_id": "clothshop-1a6d3",
+    "storage_bucket": "clothshop-1a6d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:284484192495:android:fad1829ba88837373ef31a",
+        "android_client_info": {
+          "package_name": "com.example.clothshop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXdNpdVXfAlYO6ljEteyJHk6Mqh4F1aMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
