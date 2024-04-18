@@ -3,10 +3,14 @@ import 'package:clothshop/screens/login.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 
+import 'screens/signUp.dart';
+
 void main() async {
-  runApp( MyApp());
+
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
+
+  runApp( MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -17,7 +21,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        home: login()
+        home:signup()
     );
   }
 

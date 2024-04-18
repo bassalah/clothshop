@@ -37,7 +37,8 @@ class _bottomNavigationBarState extends State<bottomNavigationBar> {
 
   @override
   Widget build(BuildContext context) {
-    return
+    return Scaffold(
+
 
         bottomNavigationBar:BottomNavigationBar(
         items: const <BottomNavigationBarItem>[
@@ -58,6 +59,7 @@ class _bottomNavigationBarState extends State<bottomNavigationBar> {
         selectedItemColor: Colors.amber[800],
         onTap: _onItemTapped,
         )
+
     );
 
   }

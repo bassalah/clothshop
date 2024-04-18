@@ -1,9 +1,6 @@
 import 'package:clothshop/models/cartModel.dart';
 import 'package:flutter/material.dart';
 
-
-
-
 class CheckOutBox extends StatelessWidget {
   final List<CartItem> items;
   const CheckOutBox({

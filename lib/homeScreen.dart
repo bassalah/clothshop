@@ -11,10 +11,10 @@ class homeScreen extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.white,
-          leading: Icon(Icons.menu,color: Colors.black),
+          leading: const Icon(Icons.menu,color: Colors.black),
           title: Text("E-shop",style: TextStyle(color: Colors.black,fontSize:30,fontWeight:FontWeight.bold,)),
           centerTitle: true,
-          actions: [
+          actions: const [
             Icon(Icons.notification_add,color: Colors.black),
           ],
         ),
